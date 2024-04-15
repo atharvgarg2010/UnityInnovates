@@ -1,0 +1,114 @@
+.website,
+.wwwgfxcom {
+  position: relative;
+  display: inline-block;
+}
+.website {
+  line-height: 17px;
+  font-weight: 600;
+  min-width: 59px;
+}
+.wwwgfxcom {
+  width: 95px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  line-height: 120%;
+  color: var(--color-darkgray);
+  text-align: left;
+  padding: 0;
+}
+.website-parent,
+.wwwgfxcom-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wwwgfxcom-wrapper {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-whitesmoke-200);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-base);
+}
+.website-parent {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.password {
+  position: relative;
+  line-height: 17px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 70px;
+}
+.circle-lock-01-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.xxxgmailcom {
+  width: calc(100% - 48px);
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 67px;
+  white-space: nowrap;
+  padding: 0;
+}
+.circle-lock-01-parent {
+  width: 148px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.view-off-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.frame-parent16 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-base);
+  gap: var(--gap-xl);
+}
+.frame-parent15,
+.password-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  width: 300px;
+}
+.frame-parent15 {
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  font-family: var(--font-poppins);
+}

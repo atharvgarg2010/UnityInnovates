@@ -1,0 +1,101 @@
+.logout {
+  position: relative;
+  font-size: 25px;
+  color: white;
+  line-height: 120%;
+  display: inline-block;
+  font-family: var(--font-poppins);
+  color: var(--color-darkorange);
+  text-align: left;
+  min-width: 57px;
+
+}
+.frame-main,
+.logout-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.logout-wrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-darkorange);
+  padding: 19.5px var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  flex-direction: row;
+  justify-content: center;
+}
+.frame-main {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 33px;
+}
+.rectangle-div {
+  height: 4px;
+  flex: 1;
+  position: relative;
+  border-radius: 41px;
+  background-color: var(--color-gray);
+}
+.profile-screen-light-mood,
+.profile-screen-light-mood-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile-screen-light-mood-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 82px 0 79px;
+}
+.profile-screen-light-mood {
+  width: 70%;
+  position: relative;
+  border-radius: 24px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 113px 94px 11px;
+  box-sizing: border-box;
+  gap: 50px;
+  line-height: normal;
+  letter-spacing: normal;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto
+  ;
+}
+.user{
+    width: 75%;
+    display: flex;
+    margin: auto;
+}
+@media only screen and (max-width: 600px) {
+    .profile-screen-light-mood {
+        width: 100%;
+        position: relative;
+        border-radius: 24px;
+        background-color: var(--color-white);
+        overflow: hidden;
+        flex-direction: column;
+        padding: 113px 24px 11px;
+        box-sizing: border-box;
+        gap: 50px;
+        line-height: normal;
+        letter-spacing: normal;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto
+        ;
+        text-align: center;
+      }
+      .user{
+        width: 90%;
+        display: flex;
+        margin: auto;
+    }
+}
